@@ -10,7 +10,7 @@ html,body {
     gap: 1rem;
     
 }
-@media(min-width: 40em){
+@media(min-width: 60em){
     .grids-container{
         grid-template-columns: repeat(2, 1fr);
     }
