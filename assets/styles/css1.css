@@ -7,11 +7,11 @@ html,body {
 }
 .grids-container{
     display: grid;
-    grid-template-columns: 30% 30% 30%;
     gap: 1rem;
+    
 }
-
-.grid-itme{
-background-color: brown;
-height: 200px;
+@media(min-width: 40em){
+    .grids-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
