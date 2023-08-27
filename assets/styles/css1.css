@@ -5,3 +5,13 @@ html,body {
     margin: 0;
     padding: 0;
 }
+.grids-container{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 1rem;
+}
+
+.grid-itme{
+background-color: brown;
+height: 200px;
+}
